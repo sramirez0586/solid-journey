@@ -4,63 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Cost of Inaction</title>
+    
+    <!-- Add Bootstrap for Better Design -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Add Google Font (Montserrat) -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Link to Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+
+    <header class="bg-dark text-white text-center py-5">
+        <img src="logo.png" alt="Policy Impact Logo" class="mb-3" width="120">
         <h1>The Cost of Inaction: How Denying Abortion Rights Harms Americans</h1>
         <p>Millions suffer under restrictive abortion laws while policymakers fail to act beyond fundraising rhetoric.</p>
-        <nav>
-            <ul>
-                <li><a href="#research">Research</a></li>
-                <li><a href="#failures">Democratic Failures</a></li>
-                <li><a href="#solutions">Policy Solutions</a></li>
-                <li><a href="#action">Take Action</a></li>
-            </ul>
-        </nav>
     </header>
 
-    <section id="research">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#failures">Democratic Failures</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#solutions">Policy Solutions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#action">Take Action</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="research" class="container my-5">
         <h2>Research & Impact</h2>
-        <p>Findings from the Turnaway Study:</p>
-        <ul>
-            <li>Higher anxiety and lower life satisfaction</li>
-            <li>Increased chronic pain and pregnancy complications</li>
-            <li>Greater financial instability and poverty</li>
+        <img src="research-graphic.png" alt="Research Data" class="img-fluid mb-3">
+        <ul class="list-group">
+            <li class="list-group-item">Higher anxiety and lower life satisfaction</li>
+            <li class="list-group-item">Increased chronic pain and pregnancy complications</li>
+            <li class="list-group-item">Greater financial instability and poverty</li>
         </ul>
     </section>
 
-    <section id="failures">
+    <section id="failures" class="container my-5">
         <h2>Democratic Failures</h2>
+        <img src="failures-graphic.png" alt="Democratic Failures" class="img-fluid mb-3">
         <p>Democratic leaders have repeatedly asked for donations but failed to pass meaningful abortion protections.</p>
-        <ul>
-            <li>Dozens of fundraising emails, little legislative progress</li>
-            <li>Failure to codify Roe v. Wade when in power</li>
-            <li>Republican anti-abortion laws gaining traction despite Democratic control</li>
-        </ul>
     </section>
 
-    <section id="solutions">
+    <section id="solutions" class="container my-5">
         <h2>Real Policy Solutions</h2>
-        <ul>
-            <li>Pass federal abortion protections</li>
-            <li>Challenge and block state bans</li>
-            <li>Expand abortion medication access</li>
-            <li>Remove financial barriers for out-of-state procedures</li>
+        <img src="solutions-graphic.png" alt="Policy Solutions" class="img-fluid mb-3">
+        <ul class="list-group">
+            <li class="list-group-item">Pass federal abortion protections</li>
+            <li class="list-group-item">Challenge and block state bans</li>
+            <li class="list-group-item">Expand abortion medication access</li>
+            <li class="list-group-item">Remove financial barriers for out-of-state procedures</li>
         </ul>
     </section>
 
-    <section id="action">
+    <section id="action" class="container my-5">
         <h2>Take Action</h2>
+        <img src="action-graphic.png" alt="Take Action" class="img-fluid mb-3">
         <p>Stop donating to ineffective campaigns. Demand action from policymakers now.</p>
-        <ul>
-            <li><a href="#">Contact Key Policymakers</a></li>
-            <li><a href="#">Donate to Abortion Access Funds</a></li>
-        </ul>
+        <button class="btn btn-primary">Contact Key Policymakers</button>
     </section>
 
-    <footer>
+    <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2025 The Cost of Inaction. All rights reserved.</p>
     </footer>
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
